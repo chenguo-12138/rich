@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules*
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/pnpm-lock.yaml
+
+# production
+dist/
+/dist.zip
+
+# public
+public/route.json
+
+# misc
+.DS_Store
+
+
+# ide
+.vscode
+pnpm-lock.yaml
