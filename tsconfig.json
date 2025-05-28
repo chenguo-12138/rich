@@ -49,7 +49,7 @@
     "isolatedModules": true
   },
   // 要打包的文件
-  "include": ["src/**/*.ts", "src/**/*.tsx", "types/**/*.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "types/**/*.d.ts", "*.tsx", "*.ts"],
   // 不要打包的文件
   "exclude": ["node_modules"]
 }

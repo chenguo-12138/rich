@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea,
+article,
+aside,
+audio,
+canvas,
+figure,
+footer,
+header,
+mark,
+menu,
+nav,
+section,
+time,
+video {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, 'Microsoft Yahei', PingFang, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+  }
